@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resume</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+        nav {
+            background-color: slategray;
+            text-align: center;
+            padding: 10px 0;
+        }
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+            display: flex;
+            justify-content: center;
+        }
+        nav ul li {
+            margin: 0 10px;
+        }
+        nav ul li a {
+            display: block;
+            padding: 10px 20px;
+            color: #fff;
+            text-decoration: none;
+            background-color: slategray;
+            border-radius: 4px;
+        }
+        nav ul li a:hover {
+            background-color: darkslategray;
+        }
+        header {
+            background-color: slategray;
+            color: #fff;
+            padding: 10px;
+            text-align: center;
+        }
+        footer {
+            background-color: slategray;
+            color: #fff;
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+        .container {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: wheat;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            display: flex;
+            flex-direction: column;
+        }
+        .left, .right {
+            flex: 1;
+            margin: 10px;
+        }
+        .achievements {
+            display: flex;
+            justify-content: space-around;
+            margin-top: 20px;
+            background-color: grey;
+            padding: 20px;
+            border-radius: 8px;
+        }
+        .achievement-box {
+            width: 45%;
+            padding: 20px;
+            background-color: #fff;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s, box-shadow 0.3s;
+            text-align: center;
+        }
+        .achievement-box:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 15px 30px rgba(0, 0, 0, 0.2);
+        }
+        .achievement-box img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 8px;
+        }
+        .achievement-box h3 {
+            margin-top: 10px;
+            font-size: 1.5em;
+        }
+        .achievement-box p {
+            font-size: 1em;
+            color: #666;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Achievement</h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="aboutme.html">Home</a></li>
+            <li><a href="aboutme2.html">About me</a></li>
+            <li><a href="aboutme5.html">Education</a></li>
+            <li><a href="aboutme3.html">Skills</a></li>
+            <li><a href="aboutme4.html">Achievement</a></li>
+        </ul>
+    </nav>
+        <div class="achievements">
+            <div class="achievement-box">
+                <img src="Picture/volleyball.jfif" alt="VolleyBall">
+                <h3>Volleyball </h3>
+                <p>I have demonstrated my teamwork and strategic thinking 
+                    by winning a state-level championship in volleyball. 
+                    These athletic achievements reflect my commitment to excellence 
+                    and my ability to excel both individually and as part of a team.</p>
+            </div>
+            <div class="achievement-box">
+                <img src="Picture/archery.jfif" alt="Archery">
+                <h3>Archery</h3>
+                <p>I have a passion for sports. 
+                    I am proud to have won a state-level championship in recurve archery, 
+                    a sport that has honed my focus, precision, and discipline. </p>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <p>&copy; Muhammad Zubair</p>
+    </footer>
+</body>
+</html>

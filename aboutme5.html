@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resume</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f2f2f2;
+        }
+        header {
+            background-color: slategray;
+            color: #fff;
+            padding: 10px;
+            text-align: center;
+        }
+        nav {
+            background-color: slategray;
+            text-align: center;
+            padding: 10px 0;
+        }
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+            display: flex;
+            justify-content: center;
+        }
+        nav ul li {
+            margin: 0 10px;
+        }
+        nav ul li a {
+            display: block;
+            padding: 10px 20px;
+            color: #fff;
+            text-decoration: none;
+            background-color: slategray;
+            border-radius: 4px;
+        }
+        nav ul li a:hover {
+            background-color: darkslategray;
+        }
+        .container {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: grey;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+        }
+        .box {
+            background-color: white;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            padding: 20px;
+            margin: 10px;
+            flex: 1 1 calc(50% - 20px);
+            box-sizing: border-box;
+            transition: transform 0.3s, box-shadow 0.3s;
+        }
+        .box:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+        }
+        .full-width {
+            flex: 1 1 100%;
+            max-width: calc(100% - 20px);
+            text-align: center;
+        }
+        footer {
+            background-color: slategray;
+            color: #fff;
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Education</h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="aboutme.html">Home</a></li>
+            <li><a href="aboutme2.html">About me</a></li>
+            <li><a href="aboutme5.html">Education</a></li>
+            <li><a href="aboutme3.html">Skills</a></li>
+            <li><a href="aboutme4.html">Achievement</a></li>
+        </ul>
+    </nav>
+    <div class="container">
+        <div class="box">
+            <h2>SPM (Siji Pelajaran Malaysia) </h2>
+            <p>Institute Name: SMA Al Basriah Kuala Tembeling, Pahang</p>
+            <p>Year: 2020/2021</p>
+            <p>Result: 4B 3C 1D</p>
+        </div>
+        <div class="box">
+            <h2>STAM (Sijil Tinggi Agama Malaysia)</h2>
+            <p>Institute Name: Kulliah Al-Lughah Wad-Din As-Sultan Abu Bakar Pekan, Pahang</p>
+            <p>Year: 2022/2023</p>
+            <p>Result: Jayyid/Mumtaz </p>
+        </div>
+        <div class="box full-width">
+            <h2>Bachelor of Information Science Information Content Management</h2>
+            <p>Institute Name: Universiti Teknologi Mara Puncak Perdana</p>
+            <p>Year: 2024-2026 (Estimate)</p>
+            <p>Result: Current CGPA: 3.1/4.0 </p>
+        </div>
+    </div>
+    <footer>
+        <p style="text-align: center;">&copy; Muhammad Zubair</p>
+    </footer>
+</body>
+</html>
